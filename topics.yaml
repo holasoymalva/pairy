@@ -1,0 +1,84 @@
+# topics.yaml
+Data Structures:
+  subtopics:
+    - Arrays y Strings
+    - Linked Lists
+    - Trees y Graphs
+    - Stacks y Queues
+    - Hash Tables
+    - Heaps
+  common_questions:
+    - Implement a balanced binary search tree
+    - Detect cycle in a linked list
+    - LRU Cache implementation
+    
+Algorithms:
+  subtopics:
+    - Sorting y Searching
+    - Dynamic Programming
+    - Recursion y Backtracking
+    - Greedy Algorithms
+    - Graph Algorithms
+  common_questions:
+    - Merge sort implementation
+    - Shortest path in a weighted graph
+    - Coin change problem
+    
+System Design:
+  subtopics:
+    - Scalability
+    - Load Balancing
+    - Caching
+    - Database Design
+    - Microservices
+  common_questions:
+    - Design a URL shortener
+    - Design Instagram
+    - Design a distributed cache
+    
+Object-Oriented Design:
+  subtopics:
+    - SOLID Principles
+    - Design Patterns
+    - UML
+    - Clean Code
+  common_questions:
+    - Design a parking lot
+    - Implement elevator system
+    - Design a library management system
+    
+Operating Systems:
+  subtopics:
+    - Process Management
+    - Threading
+    - Memory Management
+    - File Systems
+    - Concurrency
+  common_questions:
+    - Implement a thread pool
+    - Producer-consumer problem
+    - Memory allocation algorithms
+
+Networking:
+  subtopics:
+    - TCP/IP
+    - HTTP/HTTPS
+    - DNS
+    - Load Balancing
+    - Security
+  common_questions:
+    - How does HTTPS work
+    - Explain TCP handshake
+    - Network troubleshooting
+
+Databases:
+  subtopics:
+    - SQL
+    - NoSQL
+    - Indexing
+    - Transactions
+    - Normalization
+  common_questions:
+    - Design database schema
+    - Optimize slow queries
+    - ACID properties

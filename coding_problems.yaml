@@ -1,0 +1,81 @@
+# coding_problems.yaml
+data_structures_and_algorithms:
+  arrays_strings:
+    easy:
+      - name: "Two Sum"
+        description: "Encuentra dos números en un array que sumen un target específico"
+        example_input: "[2, 7, 11, 15], target = 9"
+        example_output: "[0, 1] (porque nums[0] + nums[1] = 2 + 7 = 9)"
+        hints:
+          - "Considera usar un hash map para almacenar números vistos"
+          - "Piensa en la relación entre el número actual y el target"
+    
+    medium:
+      - name: "Longest Substring Without Repeating Characters"
+        description: "Encuentra la longitud de la subcadena más larga sin caracteres repetidos"
+        example_input: "'abcabcbb'"
+        example_output: "3 (la respuesta es 'abc')"
+        hints:
+          - "Usa una ventana deslizante"
+          - "Mantén un conjunto de caracteres vistos"
+
+system_design:
+  scalability:
+    - name: "URL Shortener"
+      requirements:
+        - "Generar URLs cortas únicas"
+        - "Redirigir a URLs originales"
+        - "Manejar alto tráfico"
+      considerations:
+        - "Estrategia de generación de IDs"
+        - "Almacenamiento y caché"
+        - "Manejo de colisiones"
+    
+    - name: "Chat System"
+      requirements:
+        - "Mensajería en tiempo real"
+        - "Persistencia de mensajes"
+        - "Indicadores de presencia"
+      considerations:
+        - "Arquitectura WebSocket"
+        - "Diseño de base de datos"
+        - "Estrategia de escalamiento"
+
+problem_solving_strategies:
+  techniques:
+    - name: "Divide y Vencerás"
+      examples:
+        - "Merge Sort"
+        - "Binary Search"
+        - "Quick Sort"
+    
+    - name: "Programación Dinámica"
+      examples:
+        - "Fibonacci"
+        - "Knapsack Problem"
+        - "Longest Common Subsequence"
+    
+    - name: "Backtracking"
+      examples:
+        - "N-Queens"
+        - "Sudoku Solver"
+        - "Permutaciones"
+
+evaluation_criteria:
+  code_quality:
+    - "Claridad y legibilidad del código"
+    - "Estructura y organización"
+    - "Manejo de errores"
+    - "Convenciones de nomenclatura"
+  
+  problem_solving:
+    - "Comprensión del problema"
+    - "Análisis de complejidad"
+    - "Optimización"
+    - "Consideración de casos edge"
+  
+  communication:
+    - "Explicación del enfoque"
+    - "Claridad en el razonamiento"
+    - "Capacidad de discutir alternativas"
+    - "Receptividad al feedback"
